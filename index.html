@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta http-equiv="Cache-Control" content="max-age=0"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title>前端基础框架</title>
+        <link rel="stylesheet" href="src/assets/css/ng-common/ng-reset.css" />
+        <link rel="stylesheet" href="src/assets/css/ng-common/ng-common.css" />
+        <link rel="stylesheet" href="src/assets/css/ng-common/ng-components.css" />
+        <!-- demo style -->
+        <link rel="stylesheet" href="src/assets/css/demo.css" />
+        <link rel="stylesheet" href="src/assets/css/list.css" />
+        <link rel="stylesheet" href="src/assets/css/index.css" />
+        <link rel="stylesheet" href="src/assets/css/index-style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div class='logo'>
+                
+                <i><img src="src/assets/img/icon-logo_03.png"></i>
+                <p>项目名在这里</p>
+            </div>
+            <div class='menu'>
+                <ul class='headNav'>
+                    <li><a href="javascript:;">menu1</a></li>
+                    <li><a href="javascript:;">menu2</a></li>
+                    <li><a href="javascript:;">menu3</a></li>
+                    <li><a href="javascript:;">menu4</a></li>
+                </ul>
+                <ul class="signin">
+                    <li><a href="javascript:;">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div class="nav">
+                
+            </div>
+            <div class="section">
+                <div class="userInfoCont"></div>
+                <div id="chatWarpContainer">
+                    <div id="tabList"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            //解决页面头部在缩小状态下显示不正常的问题
+            window.onload = function() {
+                var clientWidth = document.body.clientWidth;
+                $('#header').width(clientWidth);
+            };
+            window.onresize = function() {
+                var clientWidth = document.body.clientWidth;
+                var h = $('#header').width();
+                if(clientWidth > h) {
+                    $('#header').width(clientWidth);
+                }
+            };
+
+            //解决ie下console.log()报错问题
+            window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+            /**
+             * 每次上线前请修改这个版本号解决上线后资源缓存问题
+             * */
+            window.Args='201611081600';
+            window.UEDITOR_HOME_URL = 'src/assets/lib/ueditor/';
+        </script>
+        <script src="src/js/common/requirejsMain_singlepage.js"></script>
+        <script src="src/assets/lib/requirejs/requirejs.min.js" data-main="js/singlePageDemo/index"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+{
+    "returnCode": "0",
+    "returnMessage": null,
+    "beans": [
+        {
+            "menuId":"1000",
+            "menuName":"左侧菜单",
+            "secondMenu":[
+                {
+                    "menuId":"10000",
+                    "menuName":"项目菜单",
+                    "thirdMenu":[
+                        {
+                            "menuId":"100000",
+                            "menuName":"项目列表",
+                            "url":"js/project/projectList"
+                        },
+                        {
+                            "menuId":"100001",
+                            "menuName":"模块列表",
+                            "url":"js/module/moduleList"
+                        },
+                        {
+                            "menuId":"100002",
+                            "menuName":"项目人员配置",
+                            "url":"js/staffing/peopleStaffing"
+                        }
+                    ]
+                }
+            ]
+        }        
+    ]
+}

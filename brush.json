@@ -1,0 +1,63 @@
+{
+    "name": "devops",
+    "connect": {
+        "port": 8892,
+        "dataDir": "./data/",
+        "proxyRoot": "ngcs",
+        "mockConfig": "./mockConfig.json"
+    },
+    "eslint": {
+        "src": [
+            "./src/assets/components/**/*.js"
+        ]
+    },
+    "release": {
+        "excludeAll": [
+            "text",
+            "style"
+        ],
+        "modulesFile": "./moduleList.js",
+        "appDir": "./src/",
+        "baseUrl": "./",
+        "optimize": "none",
+        "mainConfigFile": "./testSrc/requirejsMain.js"
+    },
+    "compts": {
+        "isProxy": false,
+        "proxy": "http://192.168.91.248:8889",
+        "output": "./src/assets/",
+        "dependencies": {
+            "pc-list": "1.1.7",
+            "pc-editor": "1.0.3",
+            "pc-upload": "1.1.1",
+            "pc-selectTree": "1.0.17",
+            "pc-select": "1.0.18",
+            "pc-counter": "1.1.2",
+            "pc-buttonGroup": "1.1.1",
+            "pc-satisfyStar": "1.1.1",
+            "pc-validator": "1.0.11",
+            "pc-detailPanel": "1.1.7",
+            "pc-dialog": "1.0.14",
+            "pc-timer": "1.0.1",
+            "pc-process": "1.1.1",
+            "pc-tab": "1.1.0",
+            "pc-selectList": "1.0.1",
+            "pc-radios": "1.1.2",
+            "pc-simpleTree": "0.0.5",
+            "pc-voice": "1.1.5",
+            "pc-checkboxes": "1.1.4",
+            "pc-groupSearchForm": "1.1.8",
+            "pc-date": "1.1.3",
+            "pc-loading": "1.1.0"
+        }
+    },
+    "frameVersion": "0.0.1",
+    "comptsVersion": "0.0.1",
+    "static": {
+        "name": "ngcs-common",
+        "origin": "http://localhost:8888",
+        "include": "./**/*.html",
+        "currentUrl": "http://localhost:8888/static/ngcs-common/0.0.5/",
+        "version": "0.0.5"
+    }
+}

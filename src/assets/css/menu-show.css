@@ -1,0 +1,11 @@
+#header,
+.nav,
+#tabList>.sn-tab-container>.sn-tab>.sn-tabbar-wrapper{
+	display: block;
+}
+#content .section{
+	left: 176px;
+}
+.contentArea.J_content_render{
+	margin-top: 39px;
+}

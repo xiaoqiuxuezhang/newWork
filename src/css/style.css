@@ -1,0 +1,99 @@
+/*表单 start*/
+.t-columns-group > li{
+	height: 42px;
+}
+.sn-select .sn-select-single{
+	background: #fff;
+}
+.t-columns-group > li > div .bg-date{
+	background: #FFF url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUMzMDlGNzlCNzk0MTFFNzhGMTJGNjgzOTM5NEJEQkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUMzMDlGN0FCNzk0MTFFNzhGMTJGNjgzOTM5NEJEQkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQzMwOUY3N0I3OTQxMUU3OEYxMkY2ODM5Mzk0QkRCQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQzMwOUY3OEI3OTQxMUU3OEYxMkY2ODM5Mzk0QkRCQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvJd1CQAAAFzSURBVHjapNTNK0RRGMfxO2PyLsnkdSdCSmz8C0ixUd5qysvGhpSslD3+AtkoioWQt6gJRVn5B1hZzJSIhZC38T31mxrXdd1rnvrUOfeee55z7rnPDSQSCSs1RtZuU7vTqMKQ5RyzeMZM8sJiT/jbgKDDQ+U4RT2q0YYCXCEu18hBC+pQrGdq7JOFHBIcoRB3yEMmPrCrSU284RPZGmN2UYlzJXNNUIt23GAJ23jCuMPYObzr/jCiXnbwiDK1dyz3WLe92h8R/OXBgOU/An4SJMOcRRMq1G9AoyYrRTOK3Cb4K4E5i32Mqb+lfhYGsYdOtwlCfyRYxYEO0dKKzaJeMI8FPKSzgy6cYFL9Q33G5vMcxTG609nBmSaKqz+hRb1iExe4TGcHpjIjqlgTvRhAhl5XRJX87x3kIqyvyUSJKjuo30dYY3wlyEdM7aitOvtT2iuSjJjXBPeY0uq8Fpz5Jfd5TdCBDSz7rGTz72q1X/wSYACoH0PLXC3EJQAAAABJRU5ErkJggg==') no-repeat right 4px;
+}
+/*表单 end*/
+
+/*表格&分页 start*/
+.sn-list{
+	border:none;
+}
+.sn-list-table{
+	border: 1px #ddd solid;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.sn-list table{
+	background: #fff;
+}
+.sn-list table th{
+	color: #666;
+	font-weight: 600;
+	// border-left: none !important;
+	// border-bottom: 1px #ddd solid;
+	// box-sizing: border-box;
+    // -ms-box-sizing: border-box;
+    // -moz-box-sizing: border-box;
+    // -webkit-box-sizing: border-box;
+}
+.sn-list table td{
+	color: #666;
+	// border-left: none !important;
+	// border-right: 1px #ddd solid !important;
+	// border-bottom: 1px #ddd solid !important;
+	// box-sizing: border-box;
+    // -ms-box-sizing: border-box;
+    // -moz-box-sizing: border-box;
+    // -webkit-box-sizing: border-box;
+}
+.sn-list .evenTr td{
+	background: #f9f9f9;
+}
+.sn-list .sn-list-footer{
+	border-top: none;
+	padding-right: 0;
+}
+.sn-list-pagination{
+	width: 100%;
+	float: left;
+	// text-align: left;
+}
+.sn-list-pagination .total,
+.sn-list-pagination .per-page{
+	float: left !important;
+}
+.sn-list-pagination .per-page{
+	margin-top: -5px;
+}
+.sn-list-pagination .per-page .selectValBox{
+	border: 1px #339dd9 solid;
+	color: #339dd9;
+	border-radius: 3px;
+}
+.sn-list-pagination .current.prev,
+.sn-list-pagination .prev{
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+}
+ .sn-list-pagination .next,
+  .sn-list-pagination .next{
+ 	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+.sn-list-pagination .per-page .jiantou{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABptpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE3LTEwLTI3VDExOjMwOjQ3KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNy0xMC0yOFQyMjo1OTo1MCswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNy0xMC0yOFQyMjo1OTo1MCswODowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTU5QzdCMjdCQkYwMTFFNzg2NkVGRTdDNjM4QjcwMzgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTU5QzdCMjhCQkYwMTFFNzg2NkVGRTdDNjM4QjcwMzgiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxZWQxZTdmZi1lZGQ1LTA2NDQtYWI4ZS1jMTJlZTkyODNhOTkiPiA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8cmRmOkJhZz4gPHJkZjpsaT54bXAuZGlkOjA0OTA1NkM3QUU3RTExRTc5RkIwQUZFQzI5RjEyNzc4PC9yZGY6bGk+IDxyZGY6bGk+eG1wLmRpZDoyNUI0NDI5N0FFN0UxMUU3QTVENUYwMTc4QkNFQ0ZBRjwvcmRmOmxpPiA8cmRmOmxpPnhtcC5kaWQ6MkIxNjBDRDJBRTdFMTFFN0IzOUZBQTM3RTExQzU4REU8L3JkZjpsaT4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDoxZWQxZTdmZi1lZGQ1LTA2NDQtYWI4ZS1jMTJlZTkyODNhOTkiIHN0RXZ0OndoZW49IjIwMTctMTAtMjdUMTE6MzA6NDcrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFlZDFlN2ZmLWVkZDUtMDY0NC1hYjhlLWMxMmVlOTI4M2E5OSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxZWQxZTdmZi1lZGQ1LTA2NDQtYWI4ZS1jMTJlZTkyODNhOTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6o3pPTAAAAL0lEQVR42mJkaLnQwMDAUM+AHTQyAQmQgkZskiA5JigHXVEjVIyBBUmwARsbIMAAcLYH4tYHNuQAAAAASUVORK5CYII=') no-repeat 5px 8px !important;
+}
+.sn-list-pagination span{
+	margin: 0;
+	// width: 32px;
+	height: 30px;
+}
+.sn-list-pagination a{
+	margin: 0;
+	color: #337ab7;
+}
+.sn-list-pagination .current{
+	background: #337ab7;
+	color: #fff;
+}
+.sn-list-pagination .input-box,
+.sn-list-pagination a:last-child{
+	display: none;
+}
+/*表格&分页 end*/
